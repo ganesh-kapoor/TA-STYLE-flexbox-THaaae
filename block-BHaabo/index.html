@@ -1,0 +1,112 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/3fa4f8d4b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-heading">altcampus</h1>
+            <nav class="nav">
+                <a href="#">
+                    <i class="fa-regular fa-bell"></i>
+                </a>
+                <a href="#">
+                    <h2>Sarah Jone</h2>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+            </nav>
+        </div>
+    </header>  
+    <!-- header end -->
+
+    <!-- main start -->
+    <main class="main-container">
+        <aside class="aside">
+            <div class="aside-container">
+                <div>
+                    <a href="#">
+                        <span>Dashboard</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>Articles</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>Analytics</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>Inbox</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <span>Settings</span>
+                    </a>
+                </div>
+                
+            </div> 
+            <div>
+                <button class="logout-btn">
+                    <span>Logout</span>
+                </button>
+            </div>
+        </aside>
+        
+        <!-- Section start -->
+        <section class="section">
+            <article class="section-article">
+                <div class="section-container">
+                    <img src="assets/01.png">
+                    <h3 class="section_heading">Why we are doing Altcampus?</h3>
+                    <p class="section-para">
+                        Altcampus is an alternative to college that you wish existed. Currently, we are offering an in-house, 6-month long program to train people in quality software development, where they don't have to pay anything until they are hired.
+                    </p>
+                    <p class="section-para">
+                        We live in the world of digital skills. These skills are always evolving and so is their demand. Students/Professional who are not responsive to the changes in industry demands, in terms of skills. will hava a hard time surving, well at least flourishing.
+                    </p>
+                    <button class="section-btn">Read More</button>
+                </div>
+                
+            </article>
+        </section>
+        <!-- Section end -->
+    </main>
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="container">
+            <small>&copy; Altcampus</small>
+            <nav>
+                <a href="#">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
+    <!-- Footer end -->
+</body>
+</html>
